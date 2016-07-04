@@ -1,0 +1,6 @@
+[theme]
+name=Tomahawk
+description=Tomahawk Theme
+engine=lightdm-webkit-greeter
+url=index.html
+session=herbstluftwm

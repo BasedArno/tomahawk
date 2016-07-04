@@ -1,0 +1,107 @@
+body {
+	background-image: "/usr/share/backgrounds/mountainside_city.png";
+	/*background-color: #777777;*/
+}
+
+div.everything {
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+	min-width: 300px;
+	min-height: 200px;
+	padding: 20px;
+}
+
+div.widget_area {
+	float: left;
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	background: rgba(0,127,0,0.5);
+}
+
+div.welcome_msg {
+	height: 40%;
+	text-align: center;
+	font-size: 40px;
+	background: rgba(0,0,50,0.5);
+}
+
+div.clock_area {
+	height: 60%;
+	text-align: center;
+	font-size: 60px;
+	background: rgba(0,0,20,0.5);
+}
+
+div.login_area {
+	float: left;
+	width: 40%;
+	height: 100px;
+	background: rgba(0,0,127,0.5);
+}
+
+div.user_image_area {
+	position: fixed center;
+	height: 30px;
+	width: 30px;
+	margin: 0 auto;
+}
+
+div.user_id_area {
+	height: 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+div.password_area {
+	height: 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.password_input {
+}
+
+div.session_area {
+	height: 20px;
+	width: 100%
+	margin: 0 auto;
+}
+
+.session_input {
+}
+
+div.actions_area {
+	position: fixed center;
+	height: 20px;
+	margin: 0 auto;
+}
+
+.timer_image {
+	min-width: 10px;
+}
+
+.action_button {
+	min-width: 10px;
+}
+
+.action_image {
+}
+
+.action_label {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.action_image:hover .action_label {
+	visibility: visible;
+	opacity: 1;
+}
+
+div.log_area {
+	position: fixed center;
+	height: 100px;
+	margin: 0 auto;
+}
